@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adhan"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.tdm5.esi.adhanapp.MainActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/clock"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content">
+
+
+        <TextClock
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textClock2"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_below="@+id/clock"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/salate_fadjr"
+            android:padding="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Fadjr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+               android:textAlignment="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Fadjr"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:id="@+id/Chorok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Chourouk"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Chorouk"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/salate_Duhr"
+            android:padding="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Duhr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Duhr"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/salate_Asr"
+            android:padding="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Asr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Asr"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="4dp"
+            android:orientation="horizontal"
+            android:id="@+id/salate_Maghreb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Maghreb"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Maghreb"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="4dp"
+            android:orientation="horizontal"
+            android:id="@+id/salate_Ishaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Ishaa"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Ishaa"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
